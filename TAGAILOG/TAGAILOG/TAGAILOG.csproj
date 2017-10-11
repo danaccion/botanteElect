@@ -1,0 +1,213 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <ProjectGuid>{0958DB6D-C1EF-4B9B-B4E4-B3520806108A}</ProjectGuid>
+    <ProjectTypeGuids>{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>TAGAILOG</RootNamespace>
+    <AssemblyName>TAGAILOG</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Platform)' == 'AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <Prefer32Bit>True</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <DebugSymbols>True</DebugSymbols>
+    <DebugType>Full</DebugType>
+    <Optimize>False</Optimize>
+    <CheckForOverflowUnderflow>True</CheckForOverflowUnderflow>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <DebugSymbols>False</DebugSymbols>
+    <DebugType>None</DebugType>
+    <Optimize>True</Optimize>
+    <CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
+    <DefineConstants>TRACE</DefineConstants>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="bggPgSql">
+      <HintPath>..\..\..\..\Desktop\ELECTIONPROJECT\votingLibrary\votingLibrary\bin\Debug\bggPgSql.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu_UI_v1.4, Version=1.3.0.0, Culture=neutral, PublicKeyToken=null">
+      <HintPath>..\..\..\..\Desktop\Bunifu_UI_v1.4\Bunifu_UI_v1.4.dll</HintPath>
+    </Reference>
+    <Reference Include="FastReport">
+      <HintPath>bin\Debug\FastReport.dll</HintPath>
+    </Reference>
+    <Reference Include="FastReport.Bars">
+      <HintPath>..\..\..\..\Desktop\dan\DBSUMMER\SourceCode\Maparuwasa\Maparuwasa\bin\Debug\FastReport.Bars.dll</HintPath>
+    </Reference>
+    <Reference Include="FastReport.Editor">
+      <HintPath>..\..\..\..\Desktop\dan\DBSUMMER\SourceCode\Maparuwasa\Maparuwasa\bin\Debug\FastReport.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="FastReport.Install">
+      <HintPath>..\..\..\..\Desktop\dan\DBSUMMER\SourceCode\Maparuwasa\Maparuwasa\bin\Debug\FastReport.Install.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="Npgsql">
+      <HintPath>..\..\..\..\Desktop\dan\DBSUMMER\DATABASEPROJECT\cop\try\progress1\bin\Debug\Npgsql.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.IO" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="votingLibrary">
+      <HintPath>..\..\..\Documents\SharpDevelop Projects\votingLibrary\votingLibrary\bin\Debug\votingLibrary.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="openForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="openForm.Designer.cs">
+      <DependentUpon>openForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="pnlCertificate.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="pnlCertificate.Designer.cs">
+      <DependentUpon>pnlCertificate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="pnlCheck.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="pnlCheck.Designer.cs">
+      <DependentUpon>pnlCheck.cs</DependentUpon>
+    </Compile>
+    <Compile Include="pnlKeyControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="pnlKeyControl.Designer.cs">
+      <DependentUpon>pnlKeyControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="pnlPrintView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="pnlPrintView.Designer.cs">
+      <DependentUpon>pnlPrintView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="pnlRviewChoice.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="pnlRviewChoice.Designer.cs">
+      <DependentUpon>pnlRviewChoice.cs</DependentUpon>
+    </Compile>
+    <Compile Include="pnlSetCandidate.cs">
+      <DependentUpon>pnlCertificate.cs</DependentUpon>
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="pnlSetCandidate.Designer.cs">
+      <DependentUpon>pnlSetCandidate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="pnlSetPartylist.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="pnlSetPartylist.Designer.cs">
+      <DependentUpon>pnlSetPartylist.cs</DependentUpon>
+    </Compile>
+    <Compile Include="pnltimeStart.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="pnltimeStart.Designer.cs">
+      <DependentUpon>pnltimeStart.cs</DependentUpon>
+    </Compile>
+    <Compile Include="pnlViewCandidate.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="pnlViewCandidate.Designer.cs">
+      <DependentUpon>pnlViewCandidate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="pnlViewStudents.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="pnlViewStudents.Designer.cs">
+      <DependentUpon>pnlViewStudents.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PrintCertificate.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Usr_Home.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Usr_Home.Designer.cs">
+      <DependentUpon>Usr_Home.cs</DependentUpon>
+    </Compile>
+    <Compile Include="voteForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="voteForm.Designer.cs">
+      <DependentUpon>voteForm.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="openForm.resx">
+      <DependentUpon>openForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pnlCertificate.resx">
+      <DependentUpon>pnlCertificate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pnlCheck.resx">
+      <DependentUpon>pnlCheck.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pnlKeyControl.resx">
+      <DependentUpon>pnlKeyControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pnlPrintView.resx">
+      <DependentUpon>pnlPrintView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pnlRviewChoice.resx">
+      <DependentUpon>pnlRviewChoice.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pnlSetCandidate.resx">
+      <DependentUpon>pnlSetCandidate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pnlSetPartylist.resx">
+      <DependentUpon>pnlSetPartylist.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pnlViewCandidate.resx">
+      <DependentUpon>pnlViewCandidate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pnlViewStudents.resx">
+      <DependentUpon>pnlViewStudents.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Usr_Home.resx">
+      <DependentUpon>Usr_Home.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="voteForm.resx">
+      <DependentUpon>voteForm.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
