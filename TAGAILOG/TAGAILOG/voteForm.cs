@@ -37,6 +37,7 @@ namespace TAGAILOG
 		    pnlBody.Controls.Add(pCheckVote);
 		    
 		    HandleControl("CheckVote");
+		   
 			//
 			// TODO: Add constructor code after the InitializeComponent() call.
 			//
