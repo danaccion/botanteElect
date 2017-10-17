@@ -106,3 +106,37 @@ C:\Users\princejayaccion\projects\botanteElect\TAGAILOG\TAGAILOG\obj\Debug\TAGAI
 C:\Users\princejayaccion\projects\botanteElect\TAGAILOG\TAGAILOG\obj\Debug\TAGAILOG.csproj.GenerateResource.Cache
 C:\Users\princejayaccion\projects\botanteElect\TAGAILOG\TAGAILOG\obj\Debug\TAGAILOG.exe
 C:\Users\princejayaccion\projects\botanteElect\TAGAILOG\TAGAILOG\obj\Debug\TAGAILOG.pdb
+C:\Users\Jay Lloyd\projects\botanteElect\TAGAILOG\TAGAILOG\bin\Debug\TAGAILOG.exe.config
+C:\Users\Jay Lloyd\projects\botanteElect\TAGAILOG\TAGAILOG\bin\Debug\TAGAILOG.exe
+C:\Users\Jay Lloyd\projects\botanteElect\TAGAILOG\TAGAILOG\bin\Debug\TAGAILOG.pdb
+C:\Users\Jay Lloyd\projects\botanteElect\TAGAILOG\TAGAILOG\bin\Debug\ListViewEx.dll
+C:\Users\Jay Lloyd\projects\botanteElect\TAGAILOG\TAGAILOG\bin\Debug\ObjectListView.dll
+C:\Users\Jay Lloyd\projects\botanteElect\TAGAILOG\TAGAILOG\bin\Debug\Mono.Security.dll
+C:\Users\Jay Lloyd\projects\botanteElect\TAGAILOG\TAGAILOG\bin\Debug\bggPgSql.pdb
+C:\Users\Jay Lloyd\projects\botanteElect\TAGAILOG\TAGAILOG\bin\Debug\FastReport.xml
+C:\Users\Jay Lloyd\projects\botanteElect\TAGAILOG\TAGAILOG\bin\Debug\Npgsql.pdb
+C:\Users\Jay Lloyd\projects\botanteElect\TAGAILOG\TAGAILOG\bin\Debug\Npgsql.xml
+C:\Users\Jay Lloyd\projects\botanteElect\TAGAILOG\TAGAILOG\bin\Debug\votingLibrary.pdb
+C:\Users\Jay Lloyd\projects\botanteElect\TAGAILOG\TAGAILOG\bin\Debug\de\Npgsql.resources.dll
+C:\Users\Jay Lloyd\projects\botanteElect\TAGAILOG\TAGAILOG\bin\Debug\es\Npgsql.resources.dll
+C:\Users\Jay Lloyd\projects\botanteElect\TAGAILOG\TAGAILOG\bin\Debug\fi\Npgsql.resources.dll
+C:\Users\Jay Lloyd\projects\botanteElect\TAGAILOG\TAGAILOG\bin\Debug\fr\Npgsql.resources.dll
+C:\Users\Jay Lloyd\projects\botanteElect\TAGAILOG\TAGAILOG\bin\Debug\ja\Npgsql.resources.dll
+C:\Users\Jay Lloyd\projects\botanteElect\TAGAILOG\TAGAILOG\bin\Debug\zh-CN\Npgsql.resources.dll
+C:\Users\Jay Lloyd\projects\botanteElect\TAGAILOG\TAGAILOG\obj\Debug\TAGAILOG.csprojResolveAssemblyReference.cache
+C:\Users\Jay Lloyd\projects\botanteElect\TAGAILOG\TAGAILOG\obj\Debug\TAGAILOG.MainForm.resources
+C:\Users\Jay Lloyd\projects\botanteElect\TAGAILOG\TAGAILOG\obj\Debug\TAGAILOG.openForm.resources
+C:\Users\Jay Lloyd\projects\botanteElect\TAGAILOG\TAGAILOG\obj\Debug\TAGAILOG.pnlCertificate.resources
+C:\Users\Jay Lloyd\projects\botanteElect\TAGAILOG\TAGAILOG\obj\Debug\TAGAILOG.pnlCheck.resources
+C:\Users\Jay Lloyd\projects\botanteElect\TAGAILOG\TAGAILOG\obj\Debug\TAGAILOG.pnlKeyControl.resources
+C:\Users\Jay Lloyd\projects\botanteElect\TAGAILOG\TAGAILOG\obj\Debug\TAGAILOG.pnlPrintView.resources
+C:\Users\Jay Lloyd\projects\botanteElect\TAGAILOG\TAGAILOG\obj\Debug\TAGAILOG.pnlRviewChoice.resources
+C:\Users\Jay Lloyd\projects\botanteElect\TAGAILOG\TAGAILOG\obj\Debug\TAGAILOG.pnlSetCandidate.resources
+C:\Users\Jay Lloyd\projects\botanteElect\TAGAILOG\TAGAILOG\obj\Debug\TAGAILOG.pnlSetPartylist.resources
+C:\Users\Jay Lloyd\projects\botanteElect\TAGAILOG\TAGAILOG\obj\Debug\TAGAILOG.pnlViewCandidate.resources
+C:\Users\Jay Lloyd\projects\botanteElect\TAGAILOG\TAGAILOG\obj\Debug\TAGAILOG.pnlViewStudents.resources
+C:\Users\Jay Lloyd\projects\botanteElect\TAGAILOG\TAGAILOG\obj\Debug\TAGAILOG.Usr_Home.resources
+C:\Users\Jay Lloyd\projects\botanteElect\TAGAILOG\TAGAILOG\obj\Debug\TAGAILOG.voteForm.resources
+C:\Users\Jay Lloyd\projects\botanteElect\TAGAILOG\TAGAILOG\obj\Debug\TAGAILOG.csproj.GenerateResource.Cache
+C:\Users\Jay Lloyd\projects\botanteElect\TAGAILOG\TAGAILOG\obj\Debug\TAGAILOG.exe
+C:\Users\Jay Lloyd\projects\botanteElect\TAGAILOG\TAGAILOG\obj\Debug\TAGAILOG.pdb
