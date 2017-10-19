@@ -99,5 +99,9 @@ namespace TAGAILOG
 		{
 			ShowControl("view");
 		}
+		void PictureBox1Click(object sender, EventArgs e)
+		{
+			
+		}
 	}
 }
