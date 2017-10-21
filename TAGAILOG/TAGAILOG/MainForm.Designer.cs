@@ -23,6 +23,7 @@ namespace TAGAILOG
 		private System.Windows.Forms.PictureBox pictureBox1;
 		private System.Windows.Forms.RichTextBox richTextBox1;
 		private System.Windows.Forms.RichTextBox richTextBox2;
+		private System.Windows.Forms.Button button6;
 		
 		/// <summary>
 		/// Disposes resources used by the form.
@@ -56,6 +57,7 @@ namespace TAGAILOG
 			this.pictureBox1 = new System.Windows.Forms.PictureBox();
 			this.richTextBox1 = new System.Windows.Forms.RichTextBox();
 			this.richTextBox2 = new System.Windows.Forms.RichTextBox();
+			this.button6 = new System.Windows.Forms.Button();
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
 			this.SuspendLayout();
 			// 
@@ -76,7 +78,7 @@ namespace TAGAILOG
 			this.button5.Name = "button5";
 			this.button5.Size = new System.Drawing.Size(143, 43);
 			this.button5.TabIndex = 10;
-			this.button5.Text = "button5";
+			this.button5.Text = "View Students";
 			this.button5.UseVisualStyleBackColor = true;
 			this.button5.UseWaitCursor = true;
 			this.button5.Click += new System.EventHandler(this.Button5Click);
@@ -179,13 +181,25 @@ namespace TAGAILOG
 			this.richTextBox2.Text = " VIEW";
 			this.richTextBox2.UseWaitCursor = true;
 			// 
+			// button6
+			// 
+			this.button6.Location = new System.Drawing.Point(31, 475);
+			this.button6.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+			this.button6.Name = "button6";
+			this.button6.Size = new System.Drawing.Size(143, 43);
+			this.button6.TabIndex = 16;
+			this.button6.Text = "Set Candidate";
+			this.button6.UseVisualStyleBackColor = true;
+			this.button6.UseWaitCursor = true;
+			// 
 			// MainForm
 			// 
-			this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
+			this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
 			this.BackColor = System.Drawing.Color.White;
 			this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
 			this.ClientSize = new System.Drawing.Size(1199, 561);
+			this.Controls.Add(this.button6);
 			this.Controls.Add(this.richTextBox2);
 			this.Controls.Add(this.richTextBox1);
 			this.Controls.Add(this.pictureBox1);
@@ -195,7 +209,7 @@ namespace TAGAILOG
 			this.Controls.Add(this.button2);
 			this.Controls.Add(this.button1);
 			this.Controls.Add(this.pnlBody);
-			this.Font = new System.Drawing.Font("Adobe Gothic Std B", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+			this.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
 			this.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
 			this.Name = "MainForm";
 			this.Text = "COMELEC";
