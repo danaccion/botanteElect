@@ -122,6 +122,10 @@
     <Compile Include="pnlRviewChoice.Designer.cs">
       <DependentUpon>pnlRviewChoice.cs</DependentUpon>
     </Compile>
+    <Compile Include="pnlSetCand.cs" />
+    <Compile Include="pnlSetCand.Designer.cs">
+      <DependentUpon>pnlSetCand.cs</DependentUpon>
+    </Compile>
     <Compile Include="pnlSetCandidate.cs">
       <DependentUpon>pnlCertificate.cs</DependentUpon>
       <SubType>UserControl</SubType>
@@ -196,6 +200,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="pnlRviewChoice.resx">
       <DependentUpon>pnlRviewChoice.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pnlSetCand.resx">
+      <DependentUpon>pnlSetCand.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="pnlSetCandidate.resx">
       <DependentUpon>pnlSetCandidate.cs</DependentUpon>
