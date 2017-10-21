@@ -21,6 +21,7 @@ namespace TAGAILOG
 		private System.Windows.Forms.Label label1;
 		private System.Windows.Forms.Label label2;
 		private System.Windows.Forms.Label label3;
+		private System.Windows.Forms.Label label4;
 		
 		/// <summary>
 		/// Disposes resources used by the control.
@@ -50,6 +51,7 @@ namespace TAGAILOG
 			this.label1 = new System.Windows.Forms.Label();
 			this.label2 = new System.Windows.Forms.Label();
 			this.label3 = new System.Windows.Forms.Label();
+			this.label4 = new System.Windows.Forms.Label();
 			this.SuspendLayout();
 			// 
 			// textBox1
@@ -75,7 +77,7 @@ namespace TAGAILOG
 			// 
 			// richTextBox1
 			// 
-			this.richTextBox1.Location = new System.Drawing.Point(95, 208);
+			this.richTextBox1.Location = new System.Drawing.Point(60, 217);
 			this.richTextBox1.Name = "richTextBox1";
 			this.richTextBox1.Size = new System.Drawing.Size(506, 176);
 			this.richTextBox1.TabIndex = 4;
@@ -105,10 +107,19 @@ namespace TAGAILOG
 			this.label3.TabIndex = 7;
 			this.label3.Text = "MIddle Name";
 			// 
+			// label4
+			// 
+			this.label4.Location = new System.Drawing.Point(60, 186);
+			this.label4.Name = "label4";
+			this.label4.Size = new System.Drawing.Size(77, 28);
+			this.label4.TabIndex = 8;
+			this.label4.Text = "PLATFORM";
+			// 
 			// pnlSetCand
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+			this.Controls.Add(this.label4);
 			this.Controls.Add(this.label3);
 			this.Controls.Add(this.label2);
 			this.Controls.Add(this.label1);

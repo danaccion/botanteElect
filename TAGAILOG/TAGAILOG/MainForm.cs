@@ -25,6 +25,7 @@ namespace TAGAILOG
 		pnlSetPartylist SetPartyList = new pnlSetPartylist();
 		pnlViewStudents viewStudents = new pnlViewStudents();
 		pnlPrintView pView = new pnlPrintView();
+		pnlSetCand setCand = new pnlSetCand();
 		public MainForm()
 		{
 			//
@@ -55,10 +56,13 @@ namespace TAGAILOG
 		    SetPartyList.Dock = DockStyle.Fill;
 		    pnlBody.Controls.Add(viewStudents);
 		    
-		    
 		    pView.Name = "view";
 		    pView.Dock = DockStyle.Fill;
 		    pnlBody.Controls.Add(pView);
+		    
+		    setCand.Name = "setCand";
+		    setCand.Dock = DockStyle.Fill;
+		    pnlBody.Controls.Add(setCand);
 		    
 			//
 			// TODO: Add constructor code after the InitializeComponent() call.

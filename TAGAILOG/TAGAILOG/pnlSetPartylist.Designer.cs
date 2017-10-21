@@ -58,7 +58,7 @@ namespace TAGAILOG
 			// dataGridView1
 			// 
 			this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-			this.dataGridView1.Location = new System.Drawing.Point(122, 198);
+			this.dataGridView1.Location = new System.Drawing.Point(122, 161);
 			this.dataGridView1.Name = "dataGridView1";
 			this.dataGridView1.Size = new System.Drawing.Size(460, 150);
 			this.dataGridView1.TabIndex = 2;
@@ -72,7 +72,7 @@ namespace TAGAILOG
 			// 
 			// label2
 			// 
-			this.label2.Location = new System.Drawing.Point(27, 175);
+			this.label2.Location = new System.Drawing.Point(27, 138);
 			this.label2.Name = "label2";
 			this.label2.Size = new System.Drawing.Size(120, 20);
 			this.label2.TabIndex = 5;
