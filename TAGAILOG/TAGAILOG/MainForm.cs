@@ -1,6 +1,6 @@
 ﻿/*
  * Created by SharpDevelop.
- * User: SharpenTheSaw
+ * User: princejayaccion
  * Date: 09/10/17
  * Time: 9:58 AM
  * 
@@ -98,6 +98,10 @@ namespace TAGAILOG
 		void Button5Click(object sender, EventArgs e)
 		{
 			ShowControl("view");
+		}
+		void PictureBox1Click(object sender, EventArgs e)
+		{
+			
 		}
 	}
 }
